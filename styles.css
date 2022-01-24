@@ -158,3 +158,24 @@ li{
 
 /* END OF INFORMATION PAGE */
 
+
+.showcase-3{
+    height: 360px;
+    background-color: #E5E7EB;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-message{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author{
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+}
