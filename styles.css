@@ -179,3 +179,36 @@ li{
     color: #1F2937;
     font-weight: bold;
 }
+
+/* END OF QUOTE PAGE */
+
+.showcase-4{
+    height: 360px;
+    background-color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2{
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    transition: transform 0.3s ease;
+    height: 30px;
+    width: 120px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
