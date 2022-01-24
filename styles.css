@@ -212,3 +212,15 @@ li{
     justify-content: space-between;
     align-items: center;
 }
+
+/* END OF SIGN UP BOX */
+
+.footer {
+    height: 80px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+  }
