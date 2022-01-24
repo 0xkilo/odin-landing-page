@@ -65,9 +65,16 @@ li{
 /* END OF HEADER CSS */
 
 .showcase{
-    height: 300px;
+    height: 360px;
     background-color: #1F2937;
     padding: 35px;
+}
+
+.showcase-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: start;
 }
 
 .showcase p{
@@ -76,20 +83,37 @@ li{
 
 .showcase img{
     width: 580px;
-    height: 100px;
+    height: 200px;
 }
 
 .grid{
-    min-height: 100vh;
+    min-height: 35vh;
     display: flex;
     overflow: visible;
 }
 
 .grid-item-1{
-    width: 50vw;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
 .grid-item-2{
     width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background: #3882F6;
+    color: white;
+    border-radius: 30px;
+    border-color: #3882F6;
+    transition: transform 0.3s ease;
+    border: none;
+    height: 30px;
+    width: 120px;
 }
